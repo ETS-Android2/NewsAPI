@@ -1,4 +1,4 @@
-package com.haerul.popularnews.api;
+package com.abhikk.popularnews.api;
 
 import java.security.cert.CertificateException;
 

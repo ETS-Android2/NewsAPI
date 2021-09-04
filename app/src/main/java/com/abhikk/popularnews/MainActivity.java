@@ -1,4 +1,4 @@
-package com.haerul.popularnews;
+package com.abhikk.popularnews;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -24,22 +24,21 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.haerul.popularnews.api.ApiClient;
-import com.haerul.popularnews.api.ApiInterface;
-import com.haerul.popularnews.models.Article;
-import com.haerul.popularnews.models.News;
+import com.abhikk.popularnews.api.ApiClient;
+import com.abhikk.popularnews.api.ApiInterface;
+import com.abhikk.popularnews.models.Article;
+import com.abhikk.popularnews.models.News;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import okhttp3.internal.Util;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity implements  SwipeRefreshLayout.OnRefreshListener{
 
-    public static final String API_KEY = "your secret api key";
+    public static final String API_KEY = "f10c12410c1c47e88b42324cf441b389";
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private List<Article> articles = new ArrayList<>();
